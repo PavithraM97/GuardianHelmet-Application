@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "299083901068",
+    "project_id": "helmetdetectiondb",
+    "storage_bucket": "helmetdetectiondb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299083901068:android:0acf6b1225bcbdef38f3a9",
+        "android_client_info": {
+          "package_name": "com.example.guardianhelmet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmpcaQ2R6zrjZE2Gde5FsGT1NTCGQhJao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

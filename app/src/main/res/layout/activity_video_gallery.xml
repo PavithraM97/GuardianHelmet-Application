@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Add a title for the Video Gallery -->
+    <TextView
+        android:id="@+id/galleryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Gallery"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/videoRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="76dp"/>
+
+    <ImageView
+        android:id="@+id/svgImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videoRecyclerView"
+        android:src="@drawable/videogallry"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

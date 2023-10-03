@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Video Thumbnail -->
+    <ImageView
+        android:id="@+id/thumbnailImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <!-- Video Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/thumbnailImageView"
+        android:layout_marginStart="8dp" />
+
+    <!-- Optional: Add other information or UI elements related to the video -->
+
+</RelativeLayout>
+
+

@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editProjectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Name"
+        android:inputType="text" />
+
+    <!-- Add EditText fields for other project details here -->
+    <EditText
+        android:id="@+id/editPhase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phase"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editSupervisorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Supervisor Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Duration"
+        android:inputType="number" />
+</LinearLayout>

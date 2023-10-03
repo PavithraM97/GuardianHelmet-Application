@@ -1,0 +1,55 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/editProfileDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Full Name Label -->
+    <TextView
+        android:id="@+id/fullNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name:"
+        android:layout_margin="16dp"/>
+
+    <!-- Full Name EditText -->
+    <EditText
+        android:id="@+id/fullNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your full name"
+        android:layout_below="@id/fullNameLabel"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Mobile Number Label -->
+    <TextView
+        android:id="@+id/mobileNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number:"
+        android:layout_below="@id/fullNameEditText"
+        android:layout_margin="16dp"/>
+
+    <!-- Mobile Number EditText -->
+    <EditText
+        android:id="@+id/mobileNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your mobile number"
+        android:layout_below="@id/mobileNumberLabel"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+</RelativeLayout>

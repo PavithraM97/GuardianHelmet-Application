@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/employeeNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Name" />
+
+    <Button
+        android:id="@+id/startStopButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toggleTimer"
+        android:text="Start"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/workingTimeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Working Time: 00:00:00"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/breakButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startBreak"
+        android:text="Start Break"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/endBreakButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="endBreak"
+        android:text="End Break"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cadmium"
+    tools:context=".RealtimeCameraActivity">
+
+    <ImageView
+        android:id="@+id/selectimage"
+        android:layout_width="164dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="176dp"
+        app:layout_constraintBottom_toTopOf="@+id/camerabutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/camerabutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="226dp"
+        android:background="@color/black"
+        android:text="Camera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+      />
+
+    <Button
+        android:id="@+id/gallerybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="221dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/camerabutton"
+      />
+</androidx.constraintlayout.widget.ConstraintLayout>

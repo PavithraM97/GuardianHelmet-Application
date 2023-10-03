@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrnd"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project Details"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/textViewHeading" />
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="45dp"
+    android:padding="16dp"
+    >
+
+    <!-- Project Name Row -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Project Name:"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:paddingEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textViewProjectName"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+    </TableRow>
+
+    <!-- Phase Row -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phase:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:paddingEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textViewPhase"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <!-- Location Row -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:paddingEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textViewLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </TableRow>
+
+    <!-- Supervisor Row -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Supervisor:"
+            android:textSize="20sp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textViewSupervisor"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration:"
+            android:textSize="20sp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textViewDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </TableRow>
+
+
+
+</TableLayout>
+
+</RelativeLayout>
